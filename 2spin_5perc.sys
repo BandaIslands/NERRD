@@ -1,0 +1,26 @@
+MSysName      (2) : Two-Spin Exchange      - Name of overall spin system
+NComp         (0) : 2           - Number of Components in the System
+Popul(0)      (1) : 0.05         - Population of Component 0
+Popul(1)      (1) : 0.95         - Population of Component 1
+Exch(0)       (2) : (0<=>1)     - Non-Mutual Exchange Scheme
+Smap(0,0)     (2) : (0)0(1)0    - Map (Cmp 0 0th spin) to (Cmp 1 0th spin)
+Smap(0,1)     (2) : (0)1(1)1    - Map (Cmp 0 1st spin) to (Cmp 1 1st spin)
+Kex_nm(0)     (1) : 0.0         - Non-Mutual Exchange Rate (1/Sec)
+
+[0]SysName    (2) : NHa         - Name of component 1
+[0]NSpins     (0) : 2           - Number of Spins in the System
+[0]Iso(0)     (2) : 1H          - Spin Isotope Type
+[0]Iso(1)     (2) : 15N         - Spin Isotope Type
+[0]v(0)       (1) :   1200.0    - Chemical Shifts in Hz
+[0]v(1)       (1) :   1200.0    - Chemical Shifts in Hz
+[0]J(0,1)     (1) :      0.0    - J coupling in Hz
+[0]Omega      (1) :    300.0    - Spectrometer Frequency in MHz (1H based)
+
+[1]SysName    (2) : NHb         - Name of component 1
+[1]NSpins     (0) : 2           - Number of Spins in the System
+[1]Iso(0)     (2) : 1H          - Spin Isotope Type
+[1]Iso(1)     (2) : 15N         - Spin Isotope Type
+[1]v(0)       (1) :      0.0    - Chemical Shifts in Hz
+[1]v(1)       (1) :      0.0    - Chemical Shifts in Hz
+[1]J(0,1)     (1) :      0.0    - J coupling in Hz
+[1]Omega      (1) :    300.0    - Spectrometer Frequency in MHz (1H based)

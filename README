@@ -1,0 +1,6 @@
+Near-Rotary-Resonance Relaxation Dispersion (Solid-state NMR) 
+
+Gamma Simulation: R1rho_Components_pop.cc
+Python Script for experimental data fitting: Fit_Mono_Exp
+Spin-system description for Gamma : 2spin_5perc.sys
+Execution script example: Simul_310118_pop5
