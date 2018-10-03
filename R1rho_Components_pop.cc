@@ -17,14 +17,14 @@ Univ. Grenoble Alpes, CEA CNRS, Institute for Structural Biology (IBS) 71 avenue
 
 using namespace std;
 
-complex powl(const complex& z, int m)  // Verstehe nicht wofür wir das brauchen. woher kommt z?
+complex powl(const complex& z, int m)  
 { if(norm(z) == 0)
     return complex(0);
   else
     return complex(exp(m * log(z)));
 }
 
-super_op powl(const super_op& LOp, int power)  // offensichtlich machen wir hier einen Exponenten eines Operators. Brauchen wir wohl unten.
+super_op powl(const super_op& LOp, int power) 
 { super_op LOp1;
   complex z;
   LOp.set_EBR();              // First put LOp in its eigenbasis
@@ -535,7 +535,7 @@ if (orientation == 0)
     }  
 	  
     U.set_HBR();
-    sigma1.set_DBR(); // set_HBR geht nur auf Liouville Operator. sigma1 ist in Hilbert Raum.
+    sigma1.set_DBR(); 
     sigma=sigma1;
       
       Un=powl(U,sampling_taur);   // make a longer propagator, in order to sample less often than every taur
